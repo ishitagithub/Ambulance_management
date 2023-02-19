@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Ambulance Need in Emergency</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Calling Ambulance</a></li>
+          <li>
+            <a href="#" class="desktop-link">Contact Us</a>
+          </li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <br>
+  <br>
+<br>
+<center><h1>EMERGENCY!!!<h1>
+    <h2>Book ambulance of nearest hopital </h2>
+</h2></center>
+<h4>&emsp;&emsp;&emsp;&emsp; Want an ambulance immediately??
+  <br>
+  If yes, then fill the form as soon as possible to get the ambulance immediately. 
+</h4>
+<img src="https://thumbs.dreamstime.com/b/emergency-ambulance-emergency-department-parked-outside-accident-e-tan-tock-seng-hospital-singapore-april-53383249.jpg" alt="Hospital" style="width:500px;height:600px;">
+
+
+<div class="second">
+    <form name="passdata" class="form" name="sos" id="sos" action="mailto:{{email}}" method="post" enctype="text/plain">
+        <div class="box1"><h3>Disease Name:
+            <br>
+        <input type="text" id="name" name="dname"
+        placeholder="Enter Disease of patient" required/></h3>
+            <br>
+      <h3>Hospital Name:
+      <h6> (If you want to book for particular hospital only)</h6> 
+      
+      <input type="text" id="name" name="hname"
+      placeholder="Enter hospital name " />     
+      <br> 
+      <br>
+      <h3>Phone number:
+        <br>
+        <input type="tel" name="tel"
+            placeholder="Enter your phone number" required/>
+      
+</h3>
+<br>
+
+        <h5>Enter more details if you have time and want better service:</h5>
+<input type="text" id="name"  name="data" placeholder="Enter details"/>
+<br>
+<br>
+-------------------<input type="submit" value="submit" id="submit">---------------------
+      </form>
+      
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    
+</body>
+</html>

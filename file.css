@@ -1,0 +1,71 @@
+.menu-icon{
+    width: 35px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    cursor: pointer;
+}
+body{
+    margin: 30;
+    padding: 30;
+  background-image: url("https://thumbs.dreamstime.com/b/emergency-ambulance-emergency-department-parked-outside-accident-e-tan-tock-seng-hospital-singapore-april-53383249.jpg");
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: lighten;
+}
+.box1 {
+    background-color: #fff; 
+color: rgb(0,0,255);  
+
+}
+.form{
+    width: 200px;
+    margin-left: 6px;
+    padding: 30px;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
+h2{
+  color:rgb(255,255,255);
+  
+}
+h1{
+  color:rgb(255,0,0);
+  background-color:rgb(255,255,255);
+}
+h3{
+  color: rgb(0,0,255);
+  background-color: rgb(255,255,255);
+margin-bottom: -16px;
+}
+h5{
+  color: rgb(0,0,255);
+  background-color: rgb(255,255,255);
+margin-bottom: -1px;
+
+}
+label{
+  color: rgb(0,0,255);
+}
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37,12,119); 
+  padding: 1.5rem 3.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+input{
+  background-color: rgb(255,255,255);
+}
